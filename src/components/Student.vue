@@ -1,5 +1,5 @@
 <template>
-        <div class ="student-item">
+        <div class ="liststudent">
             <h1>{{student.studentId}}</h1><br/>
             <img v-bind:src="student.picture"/><br/>
             <b>FistName:</b>{{student.FistName}} <br/>
